@@ -1,8 +1,9 @@
+
 import React from "react";
 
-function SignUp(){
+function ProductPage(){
     return(
         <h1>hi</h1>
     );
 }
-export default SignUp;
+export default ProductPage;
