@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 function Education() {
   return (
@@ -20,7 +20,7 @@ function Education() {
             Varsity, the largest online stock market education book in the world
             covering everything from the basics to advanced trading.
           </p>
-          <a className=" mb-2" href="#">
+          <a className=" mb-2" href="/support">
             Varsity →
           </a>
           <br />
@@ -29,7 +29,7 @@ function Education() {
             TradingQ&A, the most active trading and investment community in
             India for all your market related queries.
           </p>
-          <a href="#">TradingQ&A →</a>
+          <a href="/support">TradingQ&A →</a>
         </div>
       </div>
     </div>

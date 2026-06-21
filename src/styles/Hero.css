@@ -1,0 +1,59 @@
+.hero-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 40px 20px;
+}
+
+.hero-title {
+  font-size: 40px;
+  color: #1a1a1a;
+  background-color: #b9ddfc;
+  padding: 2px 12px;
+  border-radius: 4px;
+  margin: 0 0 16px 0;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: #606060;
+  margin: 0 0 20px 0;
+}
+
+.hero-link {
+  font-size: 16px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.hero-link:hover {
+  color: #1d4ed8;
+}
+
+.hero-play-btn {
+  width: 80px;
+  height: 80px;
+  background-color: #6366f1;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+}
+
+.hero-play-btn:hover {
+  transform: scale(1.05);
+}
+
+.hero-play-icon {
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+  margin-left: 4px; /* Fixes alignment of the triangle */
+}

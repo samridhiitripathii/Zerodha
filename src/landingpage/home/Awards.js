@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 function Awards() {
   return (
@@ -6,8 +6,8 @@ function Awards() {
       <div className="row mb-10 p-5">
         <div className="col-lg-6 col-sm-12">
           <img
-            src="media/largestBroker.svg"
-            alt="Awards Image"
+            src="/media/largestBroker.svg"
+            alt=""
             className="me-5 img-fluid img-hover-zoom mb-10"
           />
         </div>

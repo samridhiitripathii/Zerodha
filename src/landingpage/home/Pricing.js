@@ -1,4 +1,5 @@
 import React from "react";
+import { Link} from 'react-router-dom';
 
 function Pricing() {
   return (
@@ -10,7 +11,7 @@ function Pricing() {
             We pioneered the concept of discount broking and price transparency
             in India. Flat fees and no hidden charges.
           </p>
-          <a href="#">See Pricing</a>
+          <Link to="/pricing">See Pricing</Link>
         </div>
         <div className="col-lg-2 d-none d-lg-block"></div>
 

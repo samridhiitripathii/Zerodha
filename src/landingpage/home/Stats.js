@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 function Stats() {
   return (
@@ -41,14 +41,14 @@ function Stats() {
             className="img-fluid p-4 mb-10"
           ></img>
           <div className="d-flex gap-5 justify-content-center">
-            <a href="#">
+            <a href="/products">
               Explore our Products
               <i
                 className="fa-solid fa-arrow-right"
                 style={{ marginLeft: "10px" }}
               ></i>
             </a>
-            <a href="#">Try Kite</a>
+            <a href="/products">Try Kite</a>
           </div>
         </div>
       </div>

@@ -6,7 +6,6 @@ function Navbar() {
     <nav className="navbar bg-light navbar-expand-lg border-bottom">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          
           <img
             src="media/logo.svg"
             className="img-fluid ms-5"
@@ -25,9 +24,17 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse me-1" id="navbarSupportedContent">
+        <div
+          className="collapse navbar-collapse me-1 text-nowrap"
+          id="navbarSupportedContent"
+        >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
+            </li>
+            <li className="nav-item text-nowrap">
               <Link className="nav-link" aria-current="page" to="/signup">
                 Sign Up
               </Link>

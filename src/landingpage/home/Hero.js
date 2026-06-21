@@ -1,13 +1,14 @@
-import react from "react";
+import React from "react";
 import "../../index.css";
+import {Link} from 'react-router-dom';
 
 function Hero() {
   return (
     <div className="container p-5 text-center">
       <div className="row ">
         <img
-          src="media/homeHero.png"
-          alt="Hero Image"
+          src="/media/homeHero.png"
+          alt=""
           className="img-fluid mb-10"
         />
       </div>
@@ -15,7 +16,11 @@ function Hero() {
       <p className="lead">
         Online Platform to Invest in Stocks, Derivatives, Mutual Funds and more
       </p>
-      <button className="btn btn-primary ">Sign Up</button>
+      <button className="btn btn-primary ">
+        <Link to="/signup" className="btn btn-primary text-decoration-none">
+          Sign Up
+        </Link>
+      </button>
     </div>
   );
 }
