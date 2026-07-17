@@ -23,7 +23,7 @@ const handleLogin = async (e) => {
   e.preventDefault();
 
   try {
-    const res = await axios.post("http://localhost:3002/login", {
+    const res = await axios.post(`${process.env.REACT_APP_API_URL}/login`, {
       email: user.email,
       password: user.password,
     });

@@ -51,7 +51,7 @@ function Menu() {
 
     try {
       const res = await axios.post(
-        "http://localhost:3002/addFunds",
+        `${process.env.REACT_APP_API_URL}/addFunds`,
         {
           amount: Number(amount),
         },

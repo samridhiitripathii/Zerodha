@@ -30,7 +30,7 @@ const Signup = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:3002/signup", {
+      const res = await axios.post(`${process.env.REACT_APP_API_URL}/signup`, {
         username: user.username,
         email: user.email,
         password: user.password,
