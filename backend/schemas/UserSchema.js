@@ -1,0 +1,27 @@
+const mongoose = require("mongoose");
+
+const { Schema } = mongoose;
+
+const UserSchema = new Schema({
+  username: {
+    type: String,
+    required: true,
+  },
+
+  email: {
+    type: String,
+    required: true,
+    unique: true,
+  },
+
+  password: {
+    type: String,
+    required: true,
+  },
+  walletBalance: {
+    type: Number,
+    default: 100000,
+  },
+});
+
+module.exports = { UserSchema };
